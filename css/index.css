@@ -1,0 +1,323 @@
+*{
+	margin: 0;padding: 0;
+}
+li{list-style: none;}
+header{
+	width: 100%;height: 50px;
+	background: url(../img/aboutxiaoniao/beader_bg.jpg)no-repeat;
+	background-size: 100% 100%;
+	position: fixed;top: 0px;left: 0px;z-index: 999;
+}
+.head-c{
+	width: 1100px;height: 50px;margin: auto;
+}
+.head-c p{
+	width: 132px;height: 50px;float: left;margin-left: 36px;
+	background: url(../img/aboutxiaoniao/logo.png)no-repeat;
+	background-size: 100% 100%;
+}
+.head-c ul{
+	width: 625px;height: 50px;float: left;
+	margin-left: 36px;
+}
+.head-c ul li{
+	width: 104px;height: 50px;float: left;text-align: center;
+  font-size: 16px;
+  font-family: "STKaiti";
+  color: rgba( 254, 254, 254, 0.702 );
+  line-height: 50px;
+}
+.head-c ul li:nth-child(1){color: white;}
+.screen-banner {
+				overflow: hidden;
+				position: relative;
+}
+.all-screen {
+				top: 0;
+				position: absolute;
+				transition: top 0.5s;
+}
+.head1-c{
+	width: 1100px;height: 845px;margin: auto;
+	border: 1px solid transparent;
+}
+.hd1-c1{
+	width: 400px;height: 401px;margin: auto;
+	margin-top: 57px;
+	background: url(../img/aboutxiaoniao/xiaoniao_welcome_icon3.gif)no-repeat;
+	background-size: 100% 100%;
+}
+.text{
+	width: 547px;height: 223px;margin: auto;
+}
+.hd1-c2{
+	width: 547px;height: auto;text-align: center;
+  font-size: 44px;
+  font-family: "STKaiti";
+  color: rgb( 254, 254, 254 );
+  line-height: 0.364;
+	margin: auto;
+}
+.hd1-c3{
+	width: 547px;height: auto;text-align: center;
+  font-size: 15.98px;
+  font-family: "Arial";
+  color: rgba( 255, 255, 255, 0.8 );
+  line-height: 1.001;
+}
+.hd1-c4{
+	width: 490px;height: auto;margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+.hd1-c4 p{
+	width: 20px;height: 17px;float: left;
+	margin-top: 20px;
+	background: url(../img/aboutxiaoniao/yinhao1_zuo.png)no-repeat;
+	background-size: 100% 100%;
+	
+}
+.hd1-c4 p:nth-child(1){
+	margin-top: -20px;margin-left: 10px;
+}
+.hd1-c4 p:nth-child(2){
+	width: 450px;margin-left: 20px;
+	font-size: 48px;
+	font-family: "STKaiti";
+	color: rgb( 254, 254, 254 );
+	line-height: 0.333;
+	background: none;
+}
+.hd1-c4 p:nth-child(3){
+	background: url(../img/aboutxiaoniao/yinhao1_you.png)no-repeat;
+	margin-top: 40px;
+}
+.hd1-c5{
+	width: 529px;height: auto;margin: auto;
+	margin-top: 85px;
+  font-size: 20px;
+  font-family: "STKaiti";
+  color: rgb( 254, 254, 254 );
+  line-height: 1.2;
+  text-align: center;
+}
+.hd1-c6{
+	width: 58px;height: 58px;margin: auto;
+	background: url(../img/aboutxiaoniao/donext.png)no-repeat;
+	background-position: 0px -58px;
+}
+.head2{
+	position: relative;
+}
+.head2-l{
+	width: 58px;height: 58px;
+	position: absolute;top: 50%;left: 2%;margin-top: -29px;
+	overflow: hidden;
+}
+.head2-l p{
+	width: 116px;height: 58px;transition: 1s;
+}
+.head2-l:hover p{
+	transform: translateX(-58px);
+}
+.head2-r:hover p{
+	transform: translateX(58px);
+}
+.head2-r{
+	width: 58px;height: 58px;
+	position: absolute;top: 50%;right: 2%;margin-top: -29px;
+	overflow: hidden;
+}
+.head2-r p{
+	width: 116px;height: 58px;
+	margin-left: -58px;transition: 1s;
+}
+.head2-c{
+	width: 1100px;height: 847px;margin: auto;
+}
+.hd2-c1{
+	width: 109px;height: 185px;
+	margin: auto;
+	font-size: 48px;
+	font-family: "STKaiti";
+	color: #221236;
+	line-height: 185px;
+}
+.hd2-c2{
+	width: 731px;height: 83px;margin: auto;
+}
+.hd2-c2 p{
+	width: 20px;height: 17px;float: left;
+	margin-top: 20px;
+	background: url(../img/aboutxiaoniao/yinhao2_zuo.png)no-repeat;
+	background-size: 100% 100%;
+	
+}
+.hd2-c2 p:nth-child(1){
+	margin-top: 0px;margin-left: 10px;
+}
+.hd2-c2 p:nth-child(2){
+	width: 650px;margin-left: 20px;
+	background: none;
+	font-size: 19px;margin-top: 18px;
+	font-family: "STKaiti";
+	color: #747377;
+	line-height: 1.714;
+}
+.hd2-c2 p:nth-child(3){
+	background: url(../img/aboutxiaoniao/yinhao2_you.png)no-repeat;
+	margin-top: 100px;
+}
+.hd2-c3{
+	width: 885px;height: 380px;margin: auto;
+	margin-top: 80px; 
+	display: flex;justify-content: space-between;align-items: center;
+}
+.hd2-c3 p{
+	width: 192px;height: 380px;
+}
+.hd2-c3 p img{
+	width: 100%;height: 100%;
+}
+.head3-c{
+	width: 1100px;height: 847px;margin: auto;
+}
+.hd3-c1{
+	width: 1100px;height: 273px;text-align: center;line-height: 273px;
+  font-size: 46.83px;
+  font-family: "STKaiti";
+  color: rgb( 255, 255, 255 );
+}
+.hd3-c2{
+	width: 969px;height: 379px;margin: auto;
+	position: relative;overflow: hidden;
+}
+.h3lt{
+	width: 22px;height: 22px;
+	background: url(../img/aboutxiaoniao/jiazhi_border_11.png)no-repeat;
+	background-size: 100% 100%;
+	position: absolute;top: 0;left: 0;
+}
+.h3rt{
+	width: 22px;height: 22px;
+	background: url(../img/aboutxiaoniao/jiazhi_border_21.png)no-repeat;
+	background-size: 100% 100%;
+	position: absolute;top: 0;right: 0;
+}
+.h3ld{
+	width: 22px;height: 22px;
+	background: url(../img/aboutxiaoniao/jiazhi_border_31.png)no-repeat;
+	background-size: 100% 100%;
+	position: absolute;bottom: 0;left: 0;
+}
+.h3rd{
+	width: 22px;height: 22px;
+	background: url(../img/aboutxiaoniao/jiazhi_border_41.png)no-repeat;
+	background-size: 100% 100%;
+	position: absolute;bottom: 0;right: 0;
+}
+.h3c{
+	width: 818px;height: 317px;margin: auto;
+	margin-top: 31px;
+	display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;
+}
+.h3c-c{
+	width: 390px;height: 77px;
+}
+.h3c-c p:nth-child(1){
+	width: 77px;height: 77px;float: left;
+	background: url(../img/aboutxiaoniao/jiazhi_quanquan.png)no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 255 );
+  line-height: 77px;
+}
+.h3c-c p:nth-child(2){
+	width: 293px;height: 47px;float: left;
+	padding: 15px 0px 15px 20px;
+  font-size: 18px;
+  font-family: "STKaiti";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.333;
+}
+.head4-c{
+	width: 1100px;height: 847px;margin: auto;
+}
+.hd4-c1{
+	width: 1100px;height: 157px;text-align: center;line-height: 157px;
+  font-size: 46.83px;
+  font-family: "STKaiti";
+  color: rgb( 34, 18, 54 );
+}
+.hd4-c2{
+	width: 913px;height: 418px;margin: auto;
+	background: url(../img/aboutxiaoniao/images/翡翠掌学专题-恢复的-恢复的_03.png)no-repeat;
+	background-size: 100% 100%;
+}
+.hd4-c3{
+	width: 179px;height: 10px;margin: auto;
+	margin-top: 30px;
+	display: flex;justify-content: space-between;align-items: center;
+}
+.hd4-c3 p{
+	width: 80px;height: 10px;border-radius: 10px;
+	background: #acacac;
+}
+.hd4-c4{
+	width: 30px;height: 45px;margin: auto;
+	margin-top: 90px;
+	background: url(../img/aboutxiaoniao/xiaoniaoyun_scrollon.png)no-repeat;
+	background-size: 100% 100%;
+}
+.head5-c{
+	width: 1150px;height: 847px;margin: auto;
+}
+.hd5-c1{
+	width: 376px;height: 376px;
+	margin-left: 115px;margin-top: 74px;float: left;
+	position: relative;
+}
+.h5rdt{
+	width: 216;height: auto;margin: auto;text-align: center;
+  font-size: 17.405px;
+  font-family: "STKaiti";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.379;
+}
+.h5rdd{
+	width: 317px;height: 315px;margin: auto;
+	background: url(../img/aboutxiaoniao/app_downcode.png)no-repeat;
+	background-size: 100% 100%;
+}
+.hd5-c2{
+	width: 449px;height: 642px;
+	float: left;margin-left: 75px;
+}
+.hd5-text{
+	width: 449px;height: 470px;line-height: 470px;
+  font-size: 46.83px;
+  font-family: "STKaiti";
+  color: rgb( 255, 255, 255 );
+}
+.hd5-cd{
+	width: 449px;height: auto;
+  font-size: 23.207px;
+  font-family: "STKaiti";
+  color: rgb( 25, 25, 25 );
+  line-height: 1.034;
+}
+.hd5-cd1{
+	width: 210px;height: 7px;margin-top: 19px;
+	background: url(../img/lianxi_kuaier_bg.png)no-repeat;
+	background-size: 100% 100%;
+}
+.hd5-cd2{
+	width: 449px;height: auto;
+  font-size: 17.405px;
+  font-family: "STKaiti";
+  color: rgb( 25, 25, 25 );
+  line-height: 1.379;
+}
+
